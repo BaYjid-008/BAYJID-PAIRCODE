@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BaYjid PairCode Generator</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;max-width:720px;margin:24px auto;padding:12px}
+    input,button{padding:10px;font-size:17px;border-radius:6px}
+    .card{border:1px solid #ddd;padding:16px;border-radius:10px;margin-top:12px}
+    img.qr{max-width:250px;border:1px solid #ddd;border-radius:8px}
+    .small{font-size:13px;color:#555}
+  </style>
+</head>
+<body>
+  <h1>🔐 BaYjid Pair-Code Generator</h1>
+  <p>WhatsApp number  → Pair code + QR ।</p>
+
+  <div class="card">
+    <label>WhatsApp number  (8801XXXXXXXXX):</label><br/>
+    <input id="number" placeholder="8801XXXXXXXXX" />
+    <button id="genBtn">Generate Pair Code</button>
+    <div id="result" style="margin-top:20px"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
