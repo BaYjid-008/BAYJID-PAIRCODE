@@ -1,19 +1,14 @@
 {
-  "name": "bayjid-paircode-server",
+  "name": "bayjid-whatsapp-bot",
   "version": "1.0.0",
-  "description": "BaYjid PairCode System - WhatsApp Style Pairing Demo",
-  "author": "BaYjid",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.1.4",
-    "express": "^4.18.2",
-    "nanoid": "^4.0.0",
-    "qrcode": "^1.5.1"
+    "@whiskeysockets/baileys": "^6.7.0",
+    "pino": "^8.15.0",
+    "express": "^4.21.1",
+    "qrcode-terminal": "^0.12.0"
   }
 }
